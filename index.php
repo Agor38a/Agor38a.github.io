@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Agora | Accueil</title>
+    <link href="./include/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./include/css/bootstrap.css" rel="stylesheet">
+    <link href="./include/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="./include/css/bootstrap-theme.css" rel="stylesheet">
+  </head>
+  <body>
+      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <a class="navbar-brand" href="#">Agora</a>
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Concerts</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Vid&eacute;os</a></li>
+              <li><a href="#">Musique</a></li>
+              <li><a href="#">Photos</a></li>
+            </div><!--/.nav-collapse -->
+          </div>
+      </div>
+      <br /><br /><br />
+      <div class="container">
+          <div class="jumbotron" style="background-image:url(http://www.west-crete.com/dailypics/photos/751large.jpg)">
+              <h1>Agora</h1>
+              <p>est un groupe de rock/pop fondé en été 2010. Il compte en ce moment 5 membres impatients de vous vendre du rêve sur scène !</p>
+          </div>
+        
+          <h1>Derni&egrave;res News</h1>
+            <div class="row">
+                <div class="col-md-4">
+                  <h2>News X</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  <p><a class="btn btn-default" href="#" role="button">Voir la news &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                  <h2>News Y</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                  <p><a class="btn btn-default" href="#" role="button">Voir la news &raquo;</a></p>
+               </div>
+                <div class="col-md-4">
+                  <h2>News Z</h2>
+                  <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  <p><a class="btn btn-default" href="#" role="button">Voir la news &raquo;</a></p>
+                </div>
+            </div>
+          
+          <hr>
+        <footer>
+            <p>© Agora 2014</p>
+        </footer>
+      </div>
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+  </body>
+</html>
